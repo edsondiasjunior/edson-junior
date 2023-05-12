@@ -1,24 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,500;1,400&display=swap');
-
+/* @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,500;1,400&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,500;0,600;1,300&display=swap');
 
 * {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Montserrat', 'Krona One', sans-serif;
   box-sizing: border-box;
+
+
 }
 
 :root {
   --primary-color: #6426E5;
-
   --black-color: #101010;
-
   --white-color: #FFFFFF;
   --selection-color: #c1a4ff;
+
+  --title-font: 'Krona One';
 }
 
 
 
 body {
   padding: 0 1rem;
+  
 }
 
 .hero__section {
@@ -50,10 +53,11 @@ p {
 }
 
 h1 {
+  font-family: var(--title-font);
   font-size: 3rem;
   color: var(--primary-color);
   font-weight: bold;
-  text-transform: uppercase;
+  text-transform: ;
 }
 
 .buttons {
@@ -88,8 +92,11 @@ h1 {
 }
 
 
-
+strong{
+  font-weight: 600;
+}
 .title {
+  font-family: var(--title-font);
   flex: 0 0 100%;
   max-width: 100%;
   margin-bottom: 1rem;
@@ -99,9 +106,9 @@ h1 {
 .title h2 {
   display: inline-block;
   font-size: 35px;
-  text-transform: uppercase;
+  text-transform: ;
   font-weight: 700;
-  color: var(--black-color);
+  color: var(--primary-color);
   margin: 0 0 5px;
   position: relative;
 }
