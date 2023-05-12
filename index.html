@@ -5,10 +5,10 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+  <script src="https://unpkg.com/scrollreveal"></script>
   <link rel="stylesheet" href="/style/reset.css">
   <link rel="stylesheet" href="style/style.css">
-  <script src="/index.js"></script>
+  
 
   <title>Edson Junior - Web Designer</title>
 
@@ -24,6 +24,7 @@
 
       <div div class="hero-text">
         <p class="upper mb-1"> <strong> Olá, eu sou o Junior</strong> &#x1F44B </p>
+
         <h1 class="mb-1">
           Web designer <br> freelancer
         </h1>
@@ -36,8 +37,11 @@
 
 
         <div class="buttons">
-          <a class="button-primary" href="https://wa.me/5511998343115?text=Oi+Junior%2C+tudo+bem%3F" target="_blank">Entre em contato</a>
-          <a class="button-secundary" href="https://drive.google.com/file/d/1-EIoBOJCVape2dxrMIApkja1RmAisJCq/view?usp=sharing" target="_blank">CV Download</a>
+          <a class="button-primary" href="https://wa.me/5511998343115?text=Oi+Junior%2C+tudo+bem%3F"
+            target="_blank">Entre em contato</a>
+          <a class="button-secundary"
+            href="https://drive.google.com/file/d/1-EIoBOJCVape2dxrMIApkja1RmAisJCq/view?usp=sharing" target="_blank">CV
+            Download</a>
         </div>
       </div>
     </section>
@@ -53,7 +57,8 @@
           <h2>Sobre mim</h2>
         </div>
         <p class="sobre__text">
-          Trabalho com design <strong>desde 2018,</strong> e ao longo minha carreira, atuei como editor de vídeo, fotografo e agora estou me especializando em UI design e front-end.
+          Trabalho com design <strong>desde 2018,</strong> e ao longo minha carreira, atuei como editor de vídeo,
+          fotografo e agora estou me especializando em UI design e front-end.
         </p>
         <p class="sobre__text mt-1">
           Me considero um profissional versátil e estou em constante aprendizado.
@@ -69,33 +74,34 @@
       <div class="cards">
         <article class="card">
           <img class="card__icon" src="/assets/design.png" alt="Ícone paleta de pintura">
-          <h3 class="card__title upper">
+          <h3 class="card__title">
             Design
           </h3>
           <p class="card__description">
-            Criação de posts eficazes, anúncios, key visuals (KV) e e-mails de marketing, desenvolvimento de identidade visual para campanhas, a fim de aumentar a sua efetividade e impacto.
+            Criação de posts e carrosseis, anúncios, key visuals (KV) e e-mails de marketing, desenvolvimento de identidade visual para campanhas, a fim de aumentar a sua efetividade e impacto.
           </p>
         </article>
 
         <article class="card">
-          <img class="card__icon" src="/assets/wordpress.png" alt="Ícone wordpress">
-          <h3 class="card__title upper">
-            Wordpress
-          </h3>
-          <p class="card__description">
-            Criação de landing page, pagina
-            de vendas, blog, sites institucionais
-            e sites portifólio, alta fidelidade no design.
-          </p>
-        </article>
-        <article class="card">
           <img class="card__icon" src="/assets/ui.png" alt="Ícone de quadrados alinhados ">
-          <h3 class="card__title upper">
+          <h3 class="card__title">
             UI Design
           </h3>
           <p class="card__description">
             Criação de páginas utilizando os princípio de UI como: usabilidade, consistência, flexibilidade, estética e
             eficiência.
+          </p>
+        </article>
+
+        <article class="card">
+          <img class="card__icon" src="/assets/wordpress.png" alt="Ícone wordpress">
+          <h3 class="card__title">
+            Wordpress
+          </h3>
+          <p class="card__description">
+            Criação de landing page, pagina
+            de vendas, blog, sites institucionais
+            e sites portfolio totalmente responsivos.
           </p>
         </article>
 
@@ -121,7 +127,7 @@
 
         <div class="row">
           <!-- gallery item start -->
-          <div class="gallery-item post">
+          <div class="gallery-item post ">
             <div class="gallery-item-inner">
               <img src="assets/gallery/social-media/pizza/1-post.png" alt="post">
             </div>
@@ -153,7 +159,7 @@
           </div>
         </div>
 
-        <span id="verMenos"></span><span id="verMais">
+      
 
           <div class="row">
             <div class="gallery-item post">
@@ -187,7 +193,7 @@
               </div>
             </div>
           </div>
-
+          <span id="verMenos"></span><span id="verMais">
           <div class="row">
             <div class="gallery-item post">
               <div class="gallery-item-inner">
@@ -599,21 +605,22 @@
 
         <!-- gallery item end -->
       </div>
-      
+
       <div class="btn-mais">
         <a onclick="verMais()" id=btnVerMais>Ver Mais</a>
       </div>
     </section>
-    
+
     <section class="cta">
-      <article class="cta__content">        
+      <article class="cta__content">
         <p>
           E ae, gostou do meu trabalho?
         </p>
-        <a class="button-secundary" href="https://wa.me/5511998343115?text=Oi+Junior%2C+tudo+bem%3F" target="_blank">Entre em contato</a>
+        <a class="cta-button button-secundary" href="https://wa.me/5511998343115?text=Oi+Junior%2C+tudo+bem%3F"
+          target="_blank">Entre em contato</a>
       </article>
-    </section>    
-    
+    </section>  
+
     <div class="btnTop">
       <i class="arrow up"></i>
     </div>
@@ -623,18 +630,21 @@
     <nav>
       <ul>
         <li>
-          <a href="https://www.behance.net/edsondiasjunior" target="_blank"> <img src="/assets/behance-icon.svg" alt=""></a>
+          <a href="https://www.behance.net/edsondiasjunior" target="_blank"> <img src="/assets/behance-icon.svg"
+              alt=""></a>
         </li>
         <li>
-          <a href="https://www.instagram.com/eujuniordesigner/" target="_blank"> <img src="/assets/Instagram.svg" alt=""></a>
+          <a href="https://www.instagram.com/eujuniordesigner/" target="_blank"> <img src="/assets/Instagram.svg"
+              alt=""></a>
         </li>
         <li>
           <a href="https://github.com/edsondiasjunior" target="_blank"> <img src="/assets/github-icon.svg" alt=""></a>
         </li>
         <li>
-          <a href="https://www.linkedin.com/in/edsondiasjunior/" target="_blank"> <img src="/assets/linkedin-icon.svg" alt=""></a>
+          <a href="https://www.linkedin.com/in/edsondiasjunior/" target="_blank"> <img src="/assets/linkedin-icon.svg"
+              alt=""></a>
         </li>
-        
+
       </ul>
     </nav>
 
@@ -646,6 +656,7 @@
   <script src="js/btn.js"></script>
   <script src="js/script.js"></script>
   <script src="js/btnVerMais.js"></script>
+  <script src="js/reveal.js"></script>
 
 </body>
 
