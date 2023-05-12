@@ -7,4 +7,3 @@ sr.reveal('.skills', {duration:2500});
 
 sr.reveal('', {duration:2500});
 
-sr.reveal('.cta', {duration:2500});
