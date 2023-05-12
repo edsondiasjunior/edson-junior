@@ -356,9 +356,9 @@ strong {
 }
 
 footer {
-  padding: 2rem;
+  padding: 5rem 0 2rem 0;
   text-align: center;
-  font-family: 'Rubik';
+  font-family: 'Montserrat';
 
 }
 
@@ -367,6 +367,7 @@ ul {
   justify-content: center;
   gap: 1rem;
   margin-bottom: 1rem;
+  
 }
 
 li:hover {
@@ -414,15 +415,8 @@ h4 {
 
 /* UTILITÁRIOS */
 
-.btn-black {
-  background-color: var(--black-color);
-  color: var(--white-color);
-}
 
-.btn-black:hover {
-  background-color: var(--white-color);
-  color: var(--black-color);
-}
+
 
 .mt-1 {
   margin-top: 1rem;
@@ -519,6 +513,7 @@ h4 {
   .card {
     width: 100%;
     text-align: center;
+    align-items: center;
     margin: 0;
     padding: 0;
   }
