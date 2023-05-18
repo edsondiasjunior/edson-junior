@@ -66,6 +66,17 @@ h1 {
   font-weight: bold;
 }
 
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+  width: 10px;
+  background-color: #cbcbcb;
+  border-radius: 5px;
+
+}
+
 .buttons {
   display: flex;
   gap: 1rem;
@@ -463,7 +474,12 @@ h4 {
   .hero__section {
     margin-bottom: 4rem;
   }
-
+  
+  .hero__section .hero-text h4 {
+    text-align: center;
+    
+  }
+  
   h1 {
     font-size: 34px;
   }
@@ -556,13 +572,6 @@ h4 {
 }
 
 
-/* .cta {
-  display: flex;
-  width: 100%;
-  justify-content: center;
-  align-items: center;
-  padding: 0 6.75rem;
-} */
 
 @keyframes fadeIn {
   0% {
